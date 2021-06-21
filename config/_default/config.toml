@@ -1,0 +1,16 @@
+baseURL = "https://www.exmaple.com/"
+languageCode = "en-us"
+title = "Blog test"
+#disableKinds = ["taxonomy", "taxonomyTerm"] si no se usara el modo de blog
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  service = "services"
+
+
+
+##Change permalinks per section
+#reference: https://gohugo.io/content-management/urls/#permalinks
+[permalinks]
+  blog = "/:section/:year/:month/:day/:title/"

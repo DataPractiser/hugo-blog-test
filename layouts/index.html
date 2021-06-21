@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ range .Site.Pages }}
+    <div>
+        <a href="{{ .Permalink }}">{{ .Name}}</a>  
+    </div>
+          
+    {{ end }}
+{{ end }}

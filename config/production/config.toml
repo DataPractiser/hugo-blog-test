@@ -1,0 +1,14 @@
+##Configurations for a production environment  
+## this configurations will run when using the commad
+## hugo 
+
+enableRobotsTXT = true
+enableEmoji= true
+
+#Evita que las secciones use plurales
+pluralizelisttitles= false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

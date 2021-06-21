@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h2>
+        Phrase here: --> {{ .Params.phrase }}
+    </h2>
+    
+    {{ range .Pages }}
+        <div>
+            <a href="{{ .Permalink }}">{{ .Name}}</a>  
+        </div>
+    {{ end }}
+{{ end }}
